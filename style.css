@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+.main{
+    width:100%;
+    height:100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    url('https://images.pexels.com/photos/24427049/pexels-photo-24427049.jpeg?cs=srgb&dl=pexels-david-kanigan-239927285-24427049.jpg&fm=jpg ');
+    background-size: cover;
+    background-position: center;
+    color:white;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:20px 60px;
+}
+
+.logo{
+    color:#ff7200;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.menu{
+    display:flex;
+    list-style:none;
+}
+
+.menu li{
+    margin:0 15px;
+}
+
+.menu li a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+
+.menu li a:hover{
+    color:#ff7200;
+}
+
+.search{
+    display:flex;
+}
+
+.search input{
+    padding:8px;
+    border:none;
+    outline:none;
+}
+
+.search button{
+    background:#ff7200;
+    border:none;
+    padding:8px 15px;
+    color:white;
+    cursor:pointer;
+}
+
+.content{
+    position:absolute;
+    top:35%;
+    left:60px;
+    max-width:500px;
+}
+
+.content h1{
+    font-size:50px;
+}
+
+.content span{
+    color:#ff7200;
+    font-size:60px;
+}
+
+.par{
+    margin-top:15px;
+    line-height:1.6;
+}
+
+.join-btn{
+    margin-top:20px;
+    background:#ff7200;
+    border:none;
+    padding:12px 25px;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+    border-radius:5px;
+}
+.form{
+    position:absolute;
+    top:20%;
+    right:60px;
+    width:300px;
+    background:rgba(0,0,0,0.8);
+    padding:25px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.form h2{
+    background:white;
+    color:#ff7200;
+    padding:8px;
+    border-radius:5px;
+    margin-bottom:20px;
+}
+
+.form input{
+    width:100%;
+    margin:10px 0;
+    padding:10px;
+    background:transparent;
+    border:none;
+    border-bottom:1px solid #ff7200;
+    color:white;
+}
+
+.login-btn{
+    width:100%;
+    padding:10px;
+    background:#ff7200;
+    border:none;
+    color:white;
+    font-weight:bold;
+    margin-top:10px;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+.link{
+    margin-top:15px;
+    font-size:14px;
+}
+
+.link a{
+    color:#ff7200;
+    text-decoration:none;
+}
+
+.liw{
+    margin-top:10px;
+    font-size:14px;
+}
+
+.icons span{
+    margin:10px;
+    font-size:18px;
+    cursor:pointer;
+}
